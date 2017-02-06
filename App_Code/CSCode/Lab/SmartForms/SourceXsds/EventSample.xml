@@ -1,0 +1,23 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StartTime>2017-04-21T00:00:00</StartTime>
+  <EndTime>2017-04-22T00:00:00</EndTime>
+  <Duration>1.00:00:00</Duration>
+  <DisplayTitle>C2E2</DisplayTitle>
+  <Location>South Building at McCormick Place – Chicago, IL</Location>
+  <IsAllDay>True</IsAllDay>
+  <Description><![CDATA[<p></p>]]></Description>
+  <Recurrence>
+    <OriginatingTimeZone>Eastern Standard Time</OriginatingTimeZone>
+    <RecurrenceType>1</RecurrenceType>
+    <RecurrenceEndDate>9999-12-31T23:59:59</RecurrenceEndDate>
+    <ReoccursDaily>
+      <Multiple>1</Multiple>
+      <numOccurences>3</numOccurences>
+      <DaysOfWeek>127</DaysOfWeek>
+    </ReoccursDaily>
+  </Recurrence>
+  <IsVariance>False</IsVariance>
+  <IsCancelled>False</IsCancelled>
+  <OriginalStart>0001-01-01T00:00:00</OriginalStart>
+  <OriginalTimeZone>Eastern Standard Time</OriginalTimeZone>
+</root>

@@ -1,0 +1,40 @@
+﻿/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size: 14px !important;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+img {max-width: 100%;}
+
+/* Google Maps Responsive Code */
+.google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

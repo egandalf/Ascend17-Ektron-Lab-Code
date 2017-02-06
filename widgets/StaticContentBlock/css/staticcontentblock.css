@@ -1,0 +1,43 @@
+﻿div.editArea.editable{
+    min-width: 600px;
+    width: 100%;
+    margin: 5px auto;
+    overflow:hidden;
+    min-height:380px;
+}
+    div.editArea.editable .aloha-editable-active {
+        margin: 5px auto;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 95%;
+        max-height: 600px;
+        overflow: auto;
+        color:black;
+        min-height:370px
+    }
+
+ DIV.editArea.editable p, DIV.editArea.editable li, DIV.editArea.editable div, DIV.editArea.editable span{
+	font-size:10.0pt;
+ }  
+
+DIV.editArea.editable a { text-decoration:underline; color: #0000FF;}
+
+DIV.editArea.editable figure
+{
+    margin: 0;
+    padding:0;
+}
+DIV.editArea.editable figure img
+{
+    max-width: 100%;
+}
+DIV.editArea.editable ol {
+	list-style: decimal inside;
+}
+DIV.editArea.editable ul {
+	list-style: disc inside;
+}
+DIV.editArea.editable li {
+	display: list-item;
+}
