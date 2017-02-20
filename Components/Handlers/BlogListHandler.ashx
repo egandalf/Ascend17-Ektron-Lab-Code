@@ -4,6 +4,7 @@ using System;
 using System.Web;
 using System.Linq;
 using System.Collections.Generic;
+using System.Text;
 using Ektron.Cms;
 using Ektron.Cms.Common;
 using Ektron.Cms.Content;
@@ -17,6 +18,7 @@ public class BlogListHandler : IHttpHandler
     public void ProcessRequest(HttpContext context)
     {
         context.Response.ContentType = "application/json";
+        context.Response.ContentEncoding = Encoding.Default;
 
         var contentManager = new ContentManager();
         var criteria = new ContentCriteria();
@@ -27,7 +29,7 @@ public class BlogListHandler : IHttpHandler
         criteria.ReturnMetadata = true;
 
         var contentList = contentManager.GetList(criteria);
-        
+
 
         // returning limited data as metadata isn't needed for listing the items.
         var result = contentList.Select(c => new BlogArticleResponse

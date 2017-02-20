@@ -2,6 +2,7 @@
 
 using System.Web;
 using System.Linq;
+using System.Text;
 using Ektron.Cms.Framework.Content;
 using Newtonsoft.Json;
 using Lab;
@@ -12,6 +13,7 @@ public class BlogItemHandler : IHttpHandler
     public void ProcessRequest(HttpContext context)
     {
         context.Response.ContentType = "application/json";
+        context.Response.ContentEncoding = Encoding.Default;
 
         long id;
         if (string.IsNullOrEmpty(context.Request.QueryString["id"]) || !long.TryParse(context.Request.QueryString["id"], out id))
